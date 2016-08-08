@@ -15,6 +15,7 @@ div{
 
 section{
 	background-color: #ffffff;
+	margin: auto;
 	width:960px;
 }
 
@@ -75,6 +76,7 @@ p{
 
 .head-container{
 	border-bottom: 5px solid #cccccc;
+	position:static;
 }
 
 
@@ -261,11 +263,83 @@ p{
 }
 
 @media screen and (max-width: 768px){
+	
+	p{
+		clear: none;
+	}
+	
+	input{
+		width: 620px;
+	}
 
+	textarea{
+		width: 620px;
+	}
 	
+	.nav{
+		right: 35px;
+		top: 15px;
+	}
 	
+	.content{
+		width: 650px;
+	}
+
+	.sidebar {
+		clear: both;
+		position: static;
+		width: 630px;
+		padding: 20px;
+	}
+	
+	.sidebar h2{
+		text-align:left;
+	}
+	
+	.sidebar img{
+	position:relative;
+	margin: 0px 15px 0px 0px;
+	left: 0px;
+	}
+	
+	.pictures{
+		float:left;
+	}
+	
+	.pictures-right{
+		float:right;
+		position: relative;
+		/* margin:auto auto; */
+	}
+	
+	.title-wrap{
+		width:160px;
+		position:absolute;
+		left:5px;
+		bottom:15px;
+	}
+	
+	.title-wrap h1{
+		font-size:24px;
+		width:300px;
+		position: relative;
+		right:80px;
+	}
 }
 
 @media screen and (max-width: 640px){
+	
+	.head-container{
+		width: 100%;
+	}
+	
+	.header{
+		margin: 0px;
+		width: 100%;
+	}
+	
+	.header h1{
+		margin: 0px;
+	}
 	
 }
