@@ -190,7 +190,7 @@ p{
 	background-color: #666666;
 	position:absolute;
 	bottom:0;
-	z-index:2; /* For browser resizing. Footer is responsive */
+	z-index:2;
 }
 
 .footer p{
@@ -309,7 +309,6 @@ p{
 	.pictures-right{
 		float:right;
 		position: relative;
-		/* margin:auto auto; */
 	}
 	
 	.title-wrap{
@@ -325,14 +324,17 @@ p{
 		position: relative;
 		right:80px;
 	}
+	
+	.footer{
+		position: relative;
+	}
 }
 
 @media screen and (max-width: 640px){
-
-	section{
-		margin:0px;
+	body{
+		width:100%;
+		height: auto;
 	}
-
 	p{
 		clear:both;
 	}
@@ -343,14 +345,32 @@ p{
 		left:150px;
 	}
 	
+	div{
+		width:100%;
+		padding: 0px;
+	}
+	
+	section{
+		width:100%;
+		margin-left:15px;
+	}
+	
+	input{
+		width: 510px;
+	}
+	
+	textarea{
+		width: 515px;
+	}
+	
 	.head-container{
-		width:640px;
+		width:100%;
 		padding:0px;
 	}
 	
 	.header{
 		margin: 0px;
-		width:640px;
+		width:100%;
 	}
 	
 	.header h1{
@@ -361,24 +381,34 @@ p{
 	}
 
 	.nav{
-		width:640px;
-		position:relative;
-		right:120px;
+		width:100%;
 		padding:0px;
 		height:45px;
 
 	}
 
 	.nav a{
-		font-size: 16px; 
+		font-size: 16px;
+		margin-left:120px;
 	}
 
 	.main-container{
-		padding: 20px; 
+		width:100%;
+		padding: 20px 0px; 
 	}
 
 	.content{
-		width:565px;
+		width:85%;
 	}
 	
+	.sidebar{
+		width:85%;
+		padding:10px;
+	}
+	
+	.footer{
+		width:100%;
+		padding:0;
+		position:relative;
+	}
 }
