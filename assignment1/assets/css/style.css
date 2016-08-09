@@ -328,18 +328,57 @@ p{
 }
 
 @media screen and (max-width: 640px){
+
+	section{
+		margin:0px;
+	}
+
+	p{
+		clear:both;
+	}
+
+	img{
+		float:none;
+		position:relative;
+		left:150px;
+	}
 	
 	.head-container{
-		width: 100%;
+		width:640px;
+		padding:0px;
 	}
 	
 	.header{
 		margin: 0px;
-		width: 100%;
+		width:640px;
 	}
 	
 	.header h1{
 		margin: 0px;
+		font-size: 35px;
+		text-align: center;
+		width:100%;
+	}
+
+	.nav{
+		width:640px;
+		position:relative;
+		right:120px;
+		padding:0px;
+		height:45px;
+
+	}
+
+	.nav a{
+		font-size: 16px; 
+	}
+
+	.main-container{
+		padding: 20px; 
+	}
+
+	.content{
+		width:565px;
 	}
 	
 }
