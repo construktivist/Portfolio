@@ -297,9 +297,9 @@ p{
 	}
 	
 	.sidebar img{
-	position:relative;
-	margin: 0px 15px 0px 0px;
-	left: 0px;
+		position:relative;
+		margin: 0px 15px 0px 0px;
+		left: 0px;
 	}
 	
 	.pictures{
@@ -335,6 +335,7 @@ p{
 		width:100%;
 		height: auto;
 	}
+
 	p{
 		clear:both;
 	}
@@ -384,7 +385,6 @@ p{
 		width:100%;
 		padding:0px;
 		height:45px;
-
 	}
 
 	.nav a{
@@ -400,10 +400,34 @@ p{
 	.content{
 		width:85%;
 	}
+
+	.content img{
+		position:relative;
+		left:100px;
+	}
 	
 	.sidebar{
 		width:85%;
 		padding:10px;
+	}
+
+	.pictures{
+		float:none;
+	}
+
+	.pictures-right{
+		float:none;
+	}
+
+	.title-wrap{
+		width: 300px;
+		position: relative;
+		left: 105px;
+		bottom: 70px;
+	}
+
+	.title-wrap h1{
+		right:10px;
 	}
 	
 	.footer{
