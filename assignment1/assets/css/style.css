@@ -200,16 +200,23 @@ p{
 }
 
 @media screen and (max-width: 980px){
+	body{
+		max-width: 980px;
+	}
 
 	p{
 		clear:left;
 	}
 
 	div{
-		width: 980px;
-		padding: 0 70px;
+		width: 100%;
+		padding: 0px;
 	}
 
+	section{
+		width:100%;
+		margin-left:20px;
+	}
 
 	input{
 		width: 300px;
@@ -218,20 +225,32 @@ p{
 	textarea{
 		width: 300px;
 	}
+
+	.head-container{
+		width:100%;
+	}
+
+	.header{
+		margin-left: 40px;
+		width:auto;
+	}
 	
 	.header h1{
 		margin-right: 250px;
 	}
 
+	.nav{
+		right:285px;
+	}
+
+	.main-container{
+		width:100%;
+		padding: 20px 0px;
+	}
+
 	.content{
 		width: 310px;
 
-	}
-
-	.nav{
-		position:relative;
-		float:left;
-		right:85px;
 	}
 
 	.sidebar{
@@ -246,7 +265,7 @@ p{
 	}
 
 	.title-wrap{
-		width:160px;
+		width:300px;
 		position:relative;
 		left:5px;
 		bottom:70px;
@@ -255,15 +274,31 @@ p{
 	.title-wrap h1{
 		font-size:24px;
 		width:300px;
-		position: relative;
-		right:80px;
+		text-align: center;
+	}
+
+	.footer{
+		width:100%;
 	}
 
 
 }
 
 @media screen and (max-width: 768px){
-	
+	body{
+		max-width: 768px;
+	}
+
+	div{
+		width:100%;
+		padding:0;
+	}
+
+	section{
+		width:100%;
+		margin-left: 20px;
+	}
+
 	p{
 		clear: none;
 	}
@@ -276,9 +311,18 @@ p{
 		width: 620px;
 	}
 	
+	.head-container{
+		width:100%;
+	}
+
+
+	.main-container{
+		width:100%;
+		padding: 20px 0px; 
+	}
+
 	.nav{
-		right: 35px;
-		top: 15px;
+	right:285px;
 	}
 	
 	.content{
@@ -312,7 +356,7 @@ p{
 	}
 	
 	.title-wrap{
-		width:160px;
+		width:300px;
 		position:absolute;
 		left:5px;
 		bottom:15px;
@@ -320,19 +364,19 @@ p{
 	
 	.title-wrap h1{
 		font-size:24px;
-		width:300px;
-		position: relative;
-		right:80px;
+		position:static;
+		text-align: center;
 	}
 	
 	.footer{
 		position: relative;
+		width:100%;
 	}
 }
 
 @media screen and (max-width: 640px){
 	body{
-		width:100%;
+		max-width:640px;
 		height: auto;
 	}
 
