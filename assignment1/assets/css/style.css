@@ -236,11 +236,13 @@ p{
 	}
 	
 	.header h1{
-		margin-right: 250px;
+		margin-right: 165px;
 	}
 
 	.nav{
-		right:285px;
+		position: relative;
+		top:15px;
+		float:left;
 	}
 
 	.main-container{
@@ -314,6 +316,10 @@ p{
 	.head-container{
 		width:100%;
 	}
+	
+	.header h1{
+		margin-right: 200px;
+	}
 
 
 	.main-container{
@@ -322,7 +328,7 @@ p{
 	}
 
 	.nav{
-	right:285px;
+		float:left;
 	}
 	
 	.content{
@@ -426,6 +432,7 @@ p{
 	}
 
 	.nav{
+		right: 50px;
 		width:100%;
 		padding:0px;
 		height:45px;
