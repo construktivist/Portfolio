@@ -62,8 +62,10 @@ textarea{
 	height: 200px;
 }
 
-.header-border{
+.header{
+	background-color: white;
 	border-bottom: 5px solid #cccccc;
+	padding: 0% 20%;
 }
 
 .header-center{
@@ -113,10 +115,12 @@ textarea{
 
 .profile-img{
 	margin-right: 15px;
+	width: 200px;
+	height: 200px;
 }
 
 .content{
-	padding-top: 15px;
+	padding: 2% 20%;
 	border-bottom: 10px solid #dddddd;
 	overflow: auto;
 }
